@@ -9,7 +9,7 @@ https://bsky.app/profile/schmitthot.bsky.social/feed/aaagrynbw4kt6
 ## The regex
 
 ```
-(?:^|[\s,.:;"'])(commodore|fadssadasoo|commodore\samiga|atari|zx\s?spectrum|zx-81|trs-80|apple\s?iie?|vic-20|c64|tandy|ibm\s?pc|msx|amstrad|crt\smonitor|floppy\sdrive|floppy\sdisk|dot\s?matrix|8-bit|16-bit|retro\s?computing|personal\s?computer|vga|ega|cga|gw-basic|qbasic|quickbasic|commodore\s?basic|atari\s?basic|sinclair\s?basic|msx\s?basic|applesoft\s?basic|bbc\s?basic|ti\s?basic|turbo\s?basic)(?:^|[\s,.:;"'])
+(?:^|[\s,.:;"'])(commodore|commodore\samiga|atari|zx\s?spectrum|zx-81|trs-80|apple\s?iie?|vic-20|c64|tandy|ibm\s?pc|msx|amstrad|crt\smonitor|floppy\sdrive|floppy\sdisk|dot\s?matrix|8-bit|16-bit|retro\s?computing|personal\s?computer|vga|ega|cga|gw-basic|qbasic|quickbasic|commodore\s?basic|atari\s?basic|sinclair\s?basic|msx\s?basic|applesoft\s?basic|bbc\s?basic|ti\s?basic|turbo\s?basic|3dfx|voodoo\s2|voodoo\s3|voodoo\s5)(?:^|[\s,.:;"'])
 ```
 
 ## Description of the regex
@@ -51,6 +51,7 @@ This regex is designed to match words or phrases related to retro computing syst
    - `floppy drive`, `floppy disk`
    - `dot matrix`
    - `vga`, `ega`, `cga`
+   - `3dfx`, `voodoo 2`, `voodoo 3`, `voodoo 5`
 
 3. **Retro Computing Terms**:
    - `8-bit`, `16-bit`
