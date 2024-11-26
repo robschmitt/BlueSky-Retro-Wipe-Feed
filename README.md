@@ -74,4 +74,4 @@ This regex is designed to match words or phrases related to retro computing syst
 - Terms **followed by a hyphen**:
   - Example: `ega-based` will not match due to the `[^-]` restriction.
 - Terms that are part of longer words:
-  - Example: `commodores` or `cgaextension` will not match because of the word boundary `\b`.
+  - Example: `commodores` or `cgaextension` will not match because of the word boundary.
