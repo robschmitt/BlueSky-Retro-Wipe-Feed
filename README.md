@@ -9,7 +9,7 @@ https://bsky.app/profile/schmitthot.bsky.social/feed/aaagrynbw4kt6
 ## The regex
 
 ```
-(?:^|[\s,.:;"'])(commodore|commodore\samiga|atari|zx\s?spectrum|zx-81|trs-80|apple\s?iie?|vic-20|c64|tandy|ibm\s?pc|msx|amstrad|crt\smonitor|floppy\sdrive|floppy\sdisk|dot\s?matrix|8-bit|16-bit|retro\s?computing|personal\s?computer|vga|ega|cga|gw-basic|qbasic|quickbasic|commodore\s?basic|atari\s?basic|sinclair\s?basic|msx\s?basic|applesoft\s?basic|bbc\s?basic|ti\s?basic|turbo\s?basic|3dfx|voodoo\s2|voodoo\s3|voodoo\s5)(?:^|[\s,.:;"'])
+(?:^|[\s,.:;"'])(commodore|commodore\samiga|atari|zx\s?spectrum|zx-81|trs-80|apple\s?iie?|vic-20|c64|tandy|ibm\s?pc|msx|amstrad|crt\smonitor|floppy\sdrive|floppy\sdisk|dot\s?matrix|retro\s?computing|vga\smonitor|ega\smonitor|cga\smonitor|gw-basic|qbasic|quickbasic|commodore\s?basic|atari\s?basic|sinclair\s?basic|msx\s?basic|applesoft\s?basic|bbc\s?basic|ti\s?basic|286\spc|386\spc|486\spc|socket\s3|socket\s7|turbo\s?basic|3dfx|voodoo\s2|voodoo\s3|voodoo\s5)(?:^|[\s,.:;"'])
 ```
 
 ## Description of the regex
@@ -50,15 +50,18 @@ This regex is designed to match words or phrases related to retro computing syst
    - `crt monitor`
    - `floppy drive`, `floppy disk`
    - `dot matrix`
-   - `vga`, `ega`, `cga`
+   - `vga monitor`, `ega monitor`, `cga monitor`
    - `3dfx`, `voodoo 2`, `voodoo 3`, `voodoo 5`
 
 3. **Retro Computing Terms**:
-   - `8-bit`, `16-bit`
+   - `socket 7`
+   - `socket 3`
+   - `286 pc`
+   - `386 pc`
+   - `486 pc`
    - `retro computing`
-   - `personal computer`
 
-4. **Programming Languages and BASIC Variations**:
+5. **Programming Languages and BASIC Variations**:
    - `gw-basic`, `qbasic`, `quickbasic`
    - `commodore basic`
    - `atari basic`
