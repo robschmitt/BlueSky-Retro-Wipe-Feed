@@ -9,7 +9,7 @@ https://bsky.app/profile/schmitthot.bsky.social/feed/aaagrynbw4kt6
 ## The regex
 
 ```
-\b(commodore|commodore\samiga|atari|zx\s?spectrum|zx-81|trs-80|apple\s?ii|vic-20|c64|tandy|ibm\s?pc|msx|amstrad|crt\smonitor|floppy\sdrive|floppy\sdisk|dot\s?matrix|8-bit|16-bit|retro\s?computing|personal\s?computer|vga|ega|cga|gw-basic|qbasic|quickbasic|commodore\s?basic|atari\s?basic|sinclair\s?basic|msx\s?basic|applesoft\s?basic|bbc\s?basic|ti\s?basic|turbo\s?basic)\b[^-]
+(?:^|[\s,.:;"'])(commodore|fadssadasoo|commodore\samiga|atari|zx\s?spectrum|zx-81|trs-80|apple\s?iie?|vic-20|c64|tandy|ibm\s?pc|msx|amstrad|crt\smonitor|floppy\sdrive|floppy\sdisk|dot\s?matrix|8-bit|16-bit|retro\s?computing|personal\s?computer|vga|ega|cga|gw-basic|qbasic|quickbasic|commodore\s?basic|atari\s?basic|sinclair\s?basic|msx\s?basic|applesoft\s?basic|bbc\s?basic|ti\s?basic|turbo\s?basic)(?:^|[\s,.:;"'])
 ```
 
 ## Description of the regex
@@ -19,8 +19,8 @@ This regex is designed to match words or phrases related to retro computing syst
 ---
 
 ### **General Structure**
-1. **`\b`**:
-   - Ensures the match starts at a word boundary, so it won't match terms that are part of longer words (e.g., `commodore` won't match in `commodores`).
+1. **`(?:^|[\s,.:;"'])`**:
+   - Ensures the match starts and ends at a word boundary, so it won't match terms that are part of longer words (e.g., `commodore` won't match in `commodores`). This word boundary specifically accounts for non-ASCII characters.
    
 2. **Alternatives (Terms Listed)**:
    - Matches any of the specific terms listed, which include:
@@ -28,12 +28,6 @@ This regex is designed to match words or phrases related to retro computing syst
      - Specific hardware components (e.g., CRT monitor, floppy disk).
      - Retro computing-related terms (e.g., 8-bit, 16-bit, retro computing).
      - Popular BASIC programming language variations (e.g., GW-BASIC, QBasic, Sinclair BASIC).
-
-3. **`\b` at the End**:
-   - Ensures the match ends at a word boundary to prevent matching terms as part of larger words.
-
-4. **`[^-]`**:
-   - Ensures the match is **not immediately followed by a hyphen**. For example, `ega` in `ega-based` will not match.
 
 ---
 
@@ -45,6 +39,7 @@ This regex is designed to match words or phrases related to retro computing syst
    - `zx spectrum`, `zx-81`
    - `trs-80`
    - `apple ii`
+   - `apple iie`
    - `vic-20`
    - `c64`
    - `tandy`
