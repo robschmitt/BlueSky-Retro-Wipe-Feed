@@ -9,7 +9,7 @@ https://bsky.app/profile/schmitthot.bsky.social/feed/aaagrynbw4kt6
 ## The regex
 
 ```
-\b(commodore|commodore\samiga|atari|zx\s?spectrum|zx-81|trs-80|apple\s?ii|vic-20|c64|tandy|ibm\s?pc|msx|amstrad|kaypro|nextcube|altair|crt\smonitor|floppy\sdrive|floppy\sdisk|dot\s?matrix|8-bit|16-bit|retro\s?computing|personal\s?computer|vga|ega|cga|gw-basic|qbasic|quickbasic|commodore\s?basic|atari\s?basic|sinclair\s?basic|msx\s?basic|applesoft\s?basic|bbc\s?basic|ti\s?basic|turbo\s?basic)\b[^-]
+\b(commodore|commodore\samiga|atari|zx\s?spectrum|zx-81|trs-80|apple\s?ii|vic-20|c64|tandy|ibm\s?pc|msx|amstrad|crt\smonitor|floppy\sdrive|floppy\sdisk|dot\s?matrix|8-bit|16-bit|retro\s?computing|personal\s?computer|vga|ega|cga|gw-basic|qbasic|quickbasic|commodore\s?basic|atari\s?basic|sinclair\s?basic|msx\s?basic|applesoft\s?basic|bbc\s?basic|ti\s?basic|turbo\s?basic)\b[^-]
 ```
 
 ## Description of the regex
@@ -50,9 +50,6 @@ This regex is designed to match words or phrases related to retro computing syst
    - `tandy`
    - `ibm pc`
    - `msx`, `amstrad`
-   - `kaypro`
-   - `nextcube`
-   - `altair`
 
 2. **Hardware Components**:
    - `crt monitor`
