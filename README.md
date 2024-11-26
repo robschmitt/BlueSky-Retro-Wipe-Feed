@@ -9,7 +9,7 @@ https://bsky.app/profile/schmitthot.bsky.social/feed/aaagrynbw4kt6
 ## The regex
 
 ```
-(?:^|[\s,.:;"'])(commodore|commodore\samiga|amiga\s500|amiga\s600|amiga\s1000|amiga\s1200|amiga\s4000|atari|zx\s?spectrum|zx-81|trs-80|apple\s?iie?|vic-20|c64|tandy|ibm\s?pc|msx|amstrad|crt\smonitor|floppy\sdrive|floppy\sdisk|retro\s?computing|vga\smonitor|ega\smonitor|cga\smonitor|gw-basic|qbasic|quickbasic|commodore\s?basic|atari\s?basic|sinclair\s?basic|msx\s?basic|applesoft\s?basic|bbc\s?basic|ti\s?basic|286\spc|386\spc|486\spc|socket\s3|socket\s7|turbo\s?basic|3dfx|voodoo\s2|voodoo\s3|voodoo\s5)(?:^|[\s,.:;"'])
+(?:^|[\s,.:;"'])(commodore|commodore\samiga|amiga\s500|amiga\s600|amiga\s1000|amiga\s1200|amiga\s4000|atari|zx\s?spectrum|zx-81|trs-80|apple\s?iie?|vic-20|c64|tandy|ibm\s?pc|msx|amstrad|crt\smonitor|floppy\sdrive|floppy\sdisk|retro\s?computing|vintage\s?computing|retro\s?gaming|vga\smonitor|ega\smonitor|cga\smonitor|gw-basic|qbasic|quickbasic|commodore\s?basic|atari\s?basic|sinclair\s?basic|msx\s?basic|applesoft\s?basic|bbc\s?basic|ti\s?basic|286\spc|386\spc|486\spc|socket\s3|socket\s7|turbo\s?basic|3dfx|voodoo\s2|voodoo\s3|voodoo\s5)(?:^|[\s,.:;"'])
 ```
 
 ## Description of the regex
@@ -59,6 +59,8 @@ This regex is designed to match words or phrases related to retro computing syst
    - `386 pc`
    - `486 pc`
    - `retro computing`
+   - `vintage computing`
+   - `retro gaming`
 
 5. **Programming Languages and BASIC Variations**:
    - `gw-basic`, `qbasic`, `quickbasic`
