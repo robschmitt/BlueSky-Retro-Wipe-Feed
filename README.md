@@ -60,6 +60,7 @@ This regex is designed to match words or phrases related to retro computing syst
    - `retro computing`
    - `vintage computing`
    - `retro gaming`
+   - `#doscember`
 
 5. **Programming Languages and BASIC Variations**:
    - `gw-basic`, `qbasic`, `quickbasic`
