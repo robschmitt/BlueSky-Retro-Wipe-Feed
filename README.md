@@ -9,7 +9,7 @@ https://bsky.app/profile/schmitthot.bsky.social/feed/aaagrynbw4kt6
 ## The regex
 
 ```
-(?:^|[\s,.:;"'])(commodore\s64|commodore\samiga|amiga\s?500|amiga\s?600|amiga\s?1000|amiga\s?1200|amiga\s?4000|atari\s?vcs|atari\s?2600|zx\s?spectrum|zx-81|trs-80|apple\s?iie?|vic-20|vic\s20|c64|tandy|ibm\s?pc|msx|amstrad|crt\smonitor|floppy\sdrive|floppy\sdisk|retro\s?computing|vintage\s?computing|retro\s?gaming|vga\smonitor|ega\smonitor|cga\smonitor|gw-basic|qbasic|quickbasic|commodore\s?basic|atari\s?basic|sinclair\s?basic|msx\s?basic|applesoft\s?basic|bbc\s?basic|ti\s?basic|286\spc|386\spc|486\spc|socket\s3|socket\s7|turbo\s?basic|3dfx|voodoo\?s2|voodoo\s?3|voodoo\s?5|#doscember)(?:^|[\s,.:;"'])
+(?:^|[\s,.:;"'])(commodore\s64|commodore\samiga|amiga\s?500|amiga\s?600|amiga\s?1000|amiga\s?1200|amiga\s?4000|atari\s?vcs|atari\s?2600|zx\s?spectrum|zx-81|trs-80|apple\s?iie?|vic-20|vic\s20|c64|tandy\s?1000|ibm\s?pc|msx|amstrad|crt\smonitor|floppy\sdrive|floppy\sdisk|retro\s?computing|vintage\s?computing|retro\s?gaming|vga\smonitor|ega\smonitor|cga\smonitor|gw-basic|qbasic|quickbasic|commodore\s?basic|atari\s?basic|sinclair\s?basic|msx\s?basic|applesoft\s?basic|bbc\s?basic|ti\s?basic|286\spc|386\spc|486\spc|socket\s3|socket\s7|turbo\s?basic|3dfx|voodoo\?s2|voodoo\s?3|voodoo\s?5|#doscember)(?:^|[\s,.:;"'])
 ```
 
 ## Description of the regex
@@ -41,7 +41,7 @@ This regex is designed to match words or phrases related to retro computing syst
    - `apple ii`
    - `apple iie`
    - `vic-20`, `vic 20`,
-   - `tandy`
+   - `tandy 1000`
    - `ibm pc`
    - `msx`, `amstrad`
 
